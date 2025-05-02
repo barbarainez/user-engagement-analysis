@@ -30,8 +30,8 @@ Este projeto tem como objetivo explorar dados simulados de sessões de usuários
 ## 🚀 Como Executar
 
 1. Clone este repositório  
-2. Instale os pacotes necessários com:
-3. Execute o notebook no Jupyter:
+2. Instale os pacotes necessários
+3. Execute o notebook no Jupyter
 4. Abra o arquivo `user_engagement_analysis.ipynb`
 
 ## 👩🏾 Sobre mim
