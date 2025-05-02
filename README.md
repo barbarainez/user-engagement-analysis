@@ -8,18 +8,18 @@ Este projeto tem como objetivo explorar dados simulados de sessões de usuários
 
 ## 🛠️ Ferramentas Utilizadas
 
-- **Python** (pandas, numpy, seaborn, matplotlib)
-- **Scikit-learn** (KMeans, StandardScaler)
-- **Jupyter Notebook**
+- Python (pandas, numpy, seaborn, matplotlib)  
+- Scikit-learn (KMeans, StandardScaler)  
+- Jupyter Notebook
 
 ## 📈 Etapas do Projeto
 
-1. **Importação e visualização dos dados**  
-2. **Análise exploratória (EDA)**  
-3. **Criação de variáveis como tempo de sessão e taxa de cliques**  
-4. **Escalonamento das variáveis**  
-5. **Aplicação do algoritmo de clusterização (KMeans)**  
-6. **Interpretação dos clusters e insights gerados**
+1. Importação e visualização dos dados  
+2. Análise exploratória (EDA)  
+3. Criação de variáveis como tempo de sessão e taxa de cliques  
+4. Escalonamento das variáveis  
+5. Aplicação do algoritmo de clusterização (KMeans)  
+6. Interpretação dos clusters e insights gerados
 
 ## 💡 Principais Insights
 
@@ -30,8 +30,14 @@ Este projeto tem como objetivo explorar dados simulados de sessões de usuários
 ## 🚀 Como Executar
 
 1. Clone este repositório  
-2. Instale os pacotes necessários
-3. Execute o notebook no Jupyter
+2. Instale os pacotes necessários:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Execute o notebook no Jupyter:
+   ```bash
+   jupyter notebook
+   ```
 4. Abra o arquivo `user_engagement_analysis.ipynb`
 
 ## 👩🏾 Sobre mim
