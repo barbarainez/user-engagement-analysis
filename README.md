@@ -1,30 +1,39 @@
-# User Engagement Analysis
+# 📊 User Engagement Analysis
 
-Este projeto explora dados simulados de engajamento de usuários em uma plataforma digital. Utilizamos Python, pandas, visualizações e técnicas de machine learning para identificar padrões comportamentais e propor melhorias.
+Análise de comportamento de usuários com foco em engajamento, conversão e identificação de padrões via clusterização (KMeans).
 
-## 📊 Objetivos
-- Analisar o comportamento de usuários em uma plataforma digital
-- Identificar perfis distintos com base em engajamento
-- Propor ações para aumentar a conversão e retenção de usuários
+## 🔍 Objetivo
 
-## 🛠️ Ferramentas utilizadas
-- Python
-- Pandas
-- Seaborn
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
+Este projeto tem como objetivo explorar dados simulados de sessões de usuários em uma plataforma digital, identificar padrões de comportamento e agrupar usuários com perfis semelhantes utilizando técnicas de machine learning.
 
-## 📁 Estrutura
-- `user_engagement.csv`: base de dados simulada
-- `user_engagement_analysis.ipynb`: notebook com a análise e clusterização
-- `requirements.txt`: dependências para rodar o projeto
+## 🛠️ Ferramentas Utilizadas
 
-## ▶️ Como executar
-1. Clone o repositório
-2. Instale as dependências com `pip install -r requirements.txt`
-3. Execute o notebook `user_engagement_analysis.ipynb`
+- **Python** (pandas, numpy, seaborn, matplotlib)
+- **Scikit-learn** (KMeans, StandardScaler)
+- **Jupyter Notebook**
 
-## 🚀 Próximos passos
-- Criar uma visualização interativa com Streamlit
-- Incluir dados de feedback/NPS
+## 📈 Etapas do Projeto
+
+1. **Importação e visualização dos dados**  
+2. **Análise exploratória (EDA)**  
+3. **Criação de variáveis como tempo de sessão e taxa de cliques**  
+4. **Escalonamento das variáveis**  
+5. **Aplicação do algoritmo de clusterização (KMeans)**  
+6. **Interpretação dos clusters e insights gerados**
+
+## 💡 Principais Insights
+
+- Os usuários foram agrupados em 3 perfis com comportamentos distintos de engajamento e conversão.  
+- A taxa de cliques (click rate) se mostrou um forte indicador de comportamento em comum entre grupos.  
+- Esses perfis podem ser usados para ações segmentadas, como campanhas de reengajamento, melhorias de UX e ofertas personalizadas.
+
+## 🚀 Como Executar
+
+1. Clone este repositório  
+2. Instale os pacotes necessários com:
+3. Execute o notebook no Jupyter:
+4. Abra o arquivo `user_engagement_analysis.ipynb`
+
+## 👩🏾 Sobre mim
+
+Sou uma profissional com mais de 8 anos de experiência em tecnologia, operações e suporte. Atualmente, estou em transição de carreira para a área de Análise de Dados, com foco em projetos práticos baseados em problemas reais.
